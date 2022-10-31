@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Portal</title>
+</head>
+
+<body>
+    <div class="ugi_logo">
+        <img class="ugi_image" src="images/logo-ugi.png" alt="">
+    </div>
+    <div class="total">
+        <h1 class="text1">Welcome to Student Portal</h1>
+        <p class="text2">Enter Your Credentials To Access Your Account</p>
+
+        <select id="select-college">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="vw">VW</option>
+            <option value="audi" selected>Select College</option>
+          </select>
+
+        <form action="#" method="post">
+
+
+            <div class="container">
+                <input type="number" placeholder="Student ID" name="id" required>
+                <input type="password" placeholder="Password" name="psw" required> <br>
+
+                <button type="submit">Sign in</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container">
+                <span class="psw"><a href="#">Forgot password?</a></span>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
