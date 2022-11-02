@@ -106,7 +106,21 @@ a {
   color: #324567;
 }
 
-@media screen and (max-width: 300px) {}
+@media screen and (max-width: 600px) {
+  .total {
+    margin: auto;
+  padding: 2px;
+  width: 450px;
+  /* height: fit-content; */
+  /* border-radius: 1rem;
+  border-color: grey;
+  text-align: center;
+  background: #E6EEFF;
+  box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.15); */
+  /* padding: auto; */
+  font-size: 60%;
+  }
+}
 
 .cancelbtn {
   width: auto;
