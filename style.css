@@ -108,7 +108,7 @@ a {
 
 @media screen and (max-width: 600px) {
   .total {
-    margin: auto auto auto 2rem;
+    margin: auto 2rem auto auto;
   padding: 2px;
   width: 400px;
   /* height: fit-content; */
