@@ -108,7 +108,7 @@ a {
 
 @media screen and (max-width: 600px) {
   .total {
-    margin: 5rem 0.5rem auto auto;
+    margin: 5rem auto auto auto;
   padding: 2px;
   width: 400px;
   /* height: fit-content; */
@@ -120,6 +120,11 @@ a {
   /* padding: auto; */
   font-size: 80%;
   }
+
+  .ugi_logo {
+    margin: 3rem auto auto auto;
+  }
+
 }
 
 .cancelbtn {
