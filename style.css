@@ -179,3 +179,58 @@ input[type=password] {
   background: rgba(230, 238, 255, 0.1);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
+
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+
+  .total {
+    margin: 3rem auto auto auto;
+  padding: 2px;
+  width: 350px;
+  height: fit-content; 
+  border-radius: 1rem;
+  border-color: grey;
+  text-align: center;
+  background: #E6EEFF;
+  box-shadow: 1px 1px 60px rgba(0, 0, 0, 0.15);
+  padding: auto;
+  font-size: 80%;
+  }
+
+  .ugi_logo {
+    margin: 3rem auto auto auto;
+  }
+
+  #select-college {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 3% 25% 0% 25%;
+    display: inline-block;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    border: #0000e6;
+    color: #324567;
+  
+    background: rgba(230, 238, 255, 0.1);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  }
+
+  input[type=number],
+input[type=password] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 2% 25%;
+  display: inline-block;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  border: #0000e6;
+  color : #324567;
+
+  background: rgba(230, 238, 255, 0.1);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  outline-color: blue;
+}
+
+}}
