@@ -5,6 +5,9 @@ body {
   background-color: #cce0ff;
   font-size: 80%;
   background: #E6EEFF;
+  -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
 }
 
 
@@ -63,6 +66,8 @@ input[type=password] {
   display: inline-block;
   border-radius: 1rem;
   box-sizing: border-box;
+  -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
   text-align: center;
   border: #0000e6;
   color: #324567;
