@@ -66,8 +66,8 @@ input[type=password] {
   display: inline-block;
   border-radius: 1rem;
   box-sizing: border-box;
-  -webkit-border-radius: 1rem;
-      -moz-border-radius: 1rem;
+  -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
   text-align: center;
   border: #0000e6;
   color: #324567;
@@ -180,6 +180,7 @@ a {
   text-align: center;
   border: #0000e6;
   color: #324567;
+  -webkit-border-radius : 20px;
 
   background: rgba(230, 238, 255, 0.1);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
@@ -244,4 +245,13 @@ a {
       outline-color: #324567;
     }
 
+}
+
+/* for iphones */
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
+{
+  
 }
